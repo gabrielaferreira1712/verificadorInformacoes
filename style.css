@@ -1,4 +1,37 @@
 *{
+
 margin: 0;
 padding-inline: 0;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+flex: 1;
+
+}
+
+
+
+.cabecalho{
+padding: 15px 25px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: 	#FF1493;
+
+}
+
+.cartao{
+    width: 260px;
+    height: 200px;
+}
+
+.cartao-imagem{
+    width: 100%;
+
 }
