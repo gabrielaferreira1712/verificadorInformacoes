@@ -18,6 +18,7 @@ flex: 1;
 
 
 .cabecalho{
+    color:#C71585;
 padding: 15px 25px;
 display: flex;
 justify-content: space-between;
@@ -33,5 +34,18 @@ background-color: 	#FF1493;
 
 .cartao-imagem{
     width: 100%;
+
+}
+
+.cartao-interno{
+    position: relative;
+    
+}
+
+.cartao-frente, .cartao-verso{
+
+position:absolute;
+border-radius: 12px;
+box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 
 }
